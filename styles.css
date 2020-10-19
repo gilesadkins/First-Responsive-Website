@@ -1,8 +1,10 @@
 .maincontainer{
-  height: 100%;
-  width: 100%;
+  margin: 0px;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  text-align: center;
   background-color: rgb(37, 37, 37);
-
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
@@ -12,10 +14,6 @@
   ;
 }
 
-*{
-  color: white;
-  text-align: center;
-}
 
 p{
   width: 80%;
@@ -76,7 +74,7 @@ padding-top: 12px;
     "header header header"
     "box1 box1 box1"
     "box2 box2 box2"
-   "box3 box3 box3" ;
+    "box3 box3 box3" ;
     }
     .container1{
       background-color: rgb(71, 154, 182);
@@ -84,7 +82,7 @@ padding-top: 12px;
       *{
       color:black;
       }
-      h1{
+      .welcome{
         color:white;
       }
 }
