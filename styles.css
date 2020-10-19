@@ -13,8 +13,6 @@
   "box1 box2 box3"
   ;
 }
-
-
 p{
   width: 80%;
 
@@ -29,6 +27,7 @@ flex-direction: column;
 .container1{
 grid-area: header;
 background-color: turquoise;
+margin: 0px;
 
 }
 .container2{
